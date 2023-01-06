@@ -1,5 +1,11 @@
 /* Primary colors */
+$dark-cyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
 /* Neutral colors */
+$dark-blue: hsl(212, 21%, 14%);
+$dark-greyish-blue: hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +13,7 @@
 }
 
 html {
-  background-color: hsl(30deg, 38%, 92%);
+  background-color: $cream;
 }
 
 h1 {
@@ -35,17 +41,16 @@ main {
 }
 
 .card {
-  background: hsl(0deg, 0%, 100%);
+  background: $white;
   display: flex;
 }
 
 img {
   max-width: 350px;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .text-container {
   margin: 2rem;
-}/*# sourceMappingURL=style.css.map */
+}
