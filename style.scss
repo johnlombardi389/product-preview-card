@@ -61,8 +61,12 @@ main {
     grid-column: 2;
     grid-row: 1;
     margin: 2rem;
+    max-width: 350px;
+    h1,
+    h2,
     p {
-      width: 200px;
+      padding-bottom: 1rem;
+      line-height: 1.5rem;
     }
   }
 }
