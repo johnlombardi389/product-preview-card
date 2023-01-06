@@ -20,18 +20,21 @@ h1 {
   font-family: "Fraunces", serif;
   font-weight: 700;
   font-size: 1.3rem;
+  color: $dark-blue;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1rem;
+  color: $dark-greyish-blue;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 0.875rem;
+  color: $dark-greyish-blue;
 }
 
 main {
@@ -43,14 +46,12 @@ main {
 .card {
   background: $white;
   display: flex;
-}
-
-img {
-  max-width: 350px;
-  height: auto;
-  object-fit: cover;
-}
-
-.text-container {
-  margin: 2rem;
+  img {
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+  }
+  .text-container {
+    margin: 2rem;
+  }
 }
