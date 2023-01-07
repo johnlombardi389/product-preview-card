@@ -52,7 +52,7 @@ main {
 .card {
   background: $white;
   display: grid;
-  grid-template-columns: 350px auto;
+  grid-template-columns: 350px 350px;
   grid-template-rows: auto;
   border-radius: 1rem;
   overflow: hidden;
@@ -71,7 +71,7 @@ main {
     h1,
     h2,
     p {
-      padding-bottom: 1rem;
+      padding-bottom: 2rem;
       line-height: 1.5rem;
     }
     .price {
@@ -107,11 +107,12 @@ button {
   background: $dark-cyan;
   border: none;
   border-radius: 5px;
-  padding: 1rem 5rem;
+  padding: 1rem 3.5rem;
   color: $white;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
+  margin-top: 2rem;
   svg {
     margin-right: 1rem;
   }

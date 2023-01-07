@@ -46,7 +46,7 @@ main {
 .card {
   background: hsl(0deg, 0%, 100%);
   display: grid;
-  grid-template-columns: 350px auto;
+  grid-template-columns: 350px 350px;
   grid-template-rows: auto;
   border-radius: 1rem;
   overflow: hidden;
@@ -67,7 +67,7 @@ main {
 .card .info-container h1,
 .card .info-container h2,
 .card .info-container p {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   line-height: 1.5rem;
 }
 .card .info-container .price {
@@ -103,11 +103,12 @@ button {
   background: hsl(158deg, 36%, 37%);
   border: none;
   border-radius: 5px;
-  padding: 1rem 5rem;
+  padding: 1rem 3.5rem;
   color: hsl(0deg, 0%, 100%);
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
+  margin-top: 2rem;
 }
 button svg {
   margin-right: 1rem;
