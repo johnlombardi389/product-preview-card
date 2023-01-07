@@ -34,21 +34,27 @@ Creating a product preview card that matches a given design as closely as possib
 ### What I learned
 
 - Learning how to use Sass to write more maintainable and scalable CSS code
-- Using Sass variables
+- Using CSS Grid to organize content on the page at different screen sizes
 - Apply my skills in HTML, CSS, and Sass, to help become more proficient as a web developer
 
 Example from the project:
 
 ```css
-$dark_blue: hsl(218, 44%, 22%);
-$title_size: 1.2rem;
-```
-
-```css
-h1 {
-  font-weight: 700;
-  font-size: $title_size;
-  color: $dark_blue;
+.card {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  img {
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+  }
+  .info-container {
+    grid-column: 2;
+    grid-row: 1;
+  }
 }
 ```
 
