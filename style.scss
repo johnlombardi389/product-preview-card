@@ -76,12 +76,12 @@ main {
     }
     .price {
       display: flex;
-      justify-content: space-around;
+      justify-content: start;
       align-items: center;
-      padding: 0 3rem;
       .current-price {
         color: $dark-cyan;
         font-size: 2rem;
+        margin-right: 1.5rem;
       }
       .old-price {
         text-decoration: line-through;
