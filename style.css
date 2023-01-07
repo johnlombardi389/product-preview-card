@@ -97,4 +97,18 @@ main {
     grid-row: 2;
     max-width: 300px;
   }
+}
+
+button {
+  background: hsl(158deg, 36%, 37%);
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 5rem;
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+button svg {
+  margin-right: 1rem;
 }/*# sourceMappingURL=style.css.map */
