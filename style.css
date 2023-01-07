@@ -24,6 +24,11 @@ h2 {
   color: hsl(228deg, 12%, 48%);
 }
 
+h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -53,17 +58,32 @@ main {
   -o-object-fit: contain;
      object-fit: contain;
 }
-.card .text-container {
+.card .info-container {
   grid-column: 2;
   grid-row: 1;
   margin: 2rem;
   max-width: 350px;
 }
-.card .text-container h1,
-.card .text-container h2,
-.card .text-container p {
+.card .info-container h1,
+.card .info-container h2,
+.card .info-container p {
   padding-bottom: 1rem;
   line-height: 1.5rem;
+}
+.card .info-container .price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 3rem;
+}
+.card .info-container .price .current-price {
+  color: hsl(158deg, 36%, 37%);
+  font-size: 2rem;
+}
+.card .info-container .price .old-price {
+  text-decoration: line-through;
+  color: hsl(228deg, 12%, 48%);
+  font-size: 1.5rem;
 }
 @media (max-width: 700px) {
   .card {
@@ -72,7 +92,7 @@ main {
   .card img {
     max-width: 300px;
   }
-  .card .text-container {
+  .card .info-container {
     grid-column: 1;
     grid-row: 2;
     max-width: 300px;

@@ -30,6 +30,11 @@ h2 {
   color: $dark-greyish-blue;
 }
 
+h3 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -58,7 +63,7 @@ main {
     height: auto;
     object-fit: contain;
   }
-  .text-container {
+  .info-container {
     grid-column: 2;
     grid-row: 1;
     margin: 2rem;
@@ -69,13 +74,28 @@ main {
       padding-bottom: 1rem;
       line-height: 1.5rem;
     }
+    .price {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0 3rem;
+      .current-price {
+        color: $dark-cyan;
+        font-size: 2rem;
+      }
+      .old-price {
+        text-decoration: line-through;
+        color: $dark-greyish-blue;
+        font-size: 1.5rem;
+      }
+    }
   }
   @media (max-width: 700px) {
     grid-template-columns: 300px auto;
     img {
       max-width: 300px;
     }
-    .text-container {
+    .info-container {
       grid-column: 1;
       grid-row: 2;
       max-width: 300px;
