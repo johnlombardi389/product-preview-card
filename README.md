@@ -18,7 +18,7 @@ Creating a product preview card that matches a given design as closely as possib
 
 ### Links
 
-- Live Site URL: [QR Code Component](https://johnlombardi389.github.io/qr-code-component/)
+- Live Site URL: [Product Preview Card](https://johnlombardi389.github.io/product-preview-card/)
 
 ## My process
 
