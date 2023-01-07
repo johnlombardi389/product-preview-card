@@ -91,7 +91,7 @@ main {
     }
   }
   @media (max-width: 700px) {
-    grid-template-columns: 300px auto;
+    grid-template-columns: 300px;
     img {
       max-width: 300px;
     }
@@ -111,8 +111,10 @@ button {
   color: $white;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 2rem;
+  display: flex;
+  align-items: center;
   svg {
     margin-right: 1rem;
   }
