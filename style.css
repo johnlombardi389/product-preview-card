@@ -114,4 +114,14 @@ button {
 }
 button svg {
   margin-right: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10vh;
+  text-align: center;
+  padding: 2rem;
 }/*# sourceMappingURL=style.css.map */
