@@ -23,24 +23,33 @@ h1 {
   color: $dark-blue;
 }
 
-h2 {
+.upper {
+  text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 0.875rem;
   color: $dark-greyish-blue;
+  padding-bottom: 1rem;
 }
 
-h3 {
-  font-family: "Fraunces", serif;
-  font-weight: 700;
-}
+// h2 {
+//   font-family: "Montserrat", sans-serif;
+//   font-weight: 700;
+//   font-size: 0.875rem;
+//   color: $dark-greyish-blue;
+// }
 
-p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 0.875rem;
-  color: $dark-greyish-blue;
-}
+// h3 {
+//   font-family: "Fraunces", serif;
+//   font-weight: 700;
+// }
+
+// p {
+//   font-family: "Montserrat", sans-serif;
+//   font-weight: 500;
+//   font-size: 0.875rem;
+//   color: $dark-greyish-blue;
+// }
 
 main {
   display: grid;
@@ -69,13 +78,9 @@ main {
     margin: 2rem;
     max-width: 350px;
     h1,
-    h2,
     p {
       padding-bottom: 2rem;
       line-height: 1.5rem;
-    }
-    h2 {
-      text-transform: uppercase;
     }
     .price {
       display: flex;

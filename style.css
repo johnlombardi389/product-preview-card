@@ -17,23 +17,13 @@ h1 {
   color: hsl(212deg, 21%, 14%);
 }
 
-h2 {
+.upper {
+  text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 0.875rem;
   color: hsl(228deg, 12%, 48%);
-}
-
-h3 {
-  font-family: "Fraunces", serif;
-  font-weight: 700;
-}
-
-p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 0.875rem;
-  color: hsl(228deg, 12%, 48%);
+  padding-bottom: 1rem;
 }
 
 main {
@@ -65,13 +55,9 @@ main {
   max-width: 350px;
 }
 .card .info-container h1,
-.card .info-container h2,
 .card .info-container p {
   padding-bottom: 2rem;
   line-height: 1.5rem;
-}
-.card .info-container h2 {
-  text-transform: uppercase;
 }
 .card .info-container .price {
   display: flex;
