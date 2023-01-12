@@ -28,10 +28,16 @@
   <body>
     <main>
       <div class="card">
-        <img
-          src="./images/perfume.jpg"
-          alt="Chanel Perfume Bottle laying on its side"
-        />
+        <picture>
+          <source
+            media="(max-width: 700px)"
+            srcset="./images/mobile-perfume.jpg"
+          />
+          <img
+            src="./images/perfume.jpg"
+            alt="Chanel Perfume Bottle laying on its side"
+          />
+        </picture>
         <div class="info-container">
           <p class="upper">Perfume</p>
           <h1>Gabrielle Essence Eau De Parfum</h1>
