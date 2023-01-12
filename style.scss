@@ -81,6 +81,8 @@ main {
       display: flex;
       justify-content: start;
       align-items: center;
+      font-family: "Fraunces", serif;
+      font-weight: 700;
       .current-price {
         color: $dark-cyan;
         font-size: 2rem;
@@ -131,4 +133,15 @@ footer {
   height: 10vh;
   text-align: center;
   padding: 2rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
