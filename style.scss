@@ -51,6 +51,7 @@ main {
     max-width: 350px;
     height: auto;
     object-fit: contain;
+    display: block;
   }
   .info-container {
     grid-column: 2;
