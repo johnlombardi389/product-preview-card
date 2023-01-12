@@ -85,9 +85,6 @@ main {
   .card {
     grid-template-columns: 300px;
   }
-  .card img {
-    max-width: 300px;
-  }
   .card .info-container {
     grid-column: 1;
     grid-row: 2;
@@ -110,6 +107,12 @@ button {
 }
 button svg {
   margin-right: 1rem;
+}
+@media (max-width: 700px) {
+  button {
+    margin-top: 0;
+    padding: 1rem 2.5rem;
+  }
 }
 
 footer {

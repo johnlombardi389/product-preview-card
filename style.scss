@@ -88,9 +88,6 @@ main {
   }
   @media (max-width: 700px) {
     grid-template-columns: 300px;
-    img {
-      max-width: 300px;
-    }
     .info-container {
       grid-column: 1;
       grid-row: 2;
@@ -113,6 +110,10 @@ button {
   align-items: center;
   svg {
     margin-right: 1rem;
+  }
+  @media (max-width: 700px) {
+    margin-top: 0;
+    padding: 1rem 2.5rem;
   }
 }
 
